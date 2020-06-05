@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+    <head>
+	    <meta name="author" content="Miso">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>聲優介紹</title>
+		<style>
+          .page {
+            display: none;
+          }
+        </style>
+		<link rel="stylesheet" href="./all.css">
+		<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+		<script src="./main.js"></script>
+		<script src="./inquiry.js"></script>
+    </head>
+	<body>
+	    <p id="a">搜尋：<input type="search" class="light-table-filter" data-table="order-table" placeholder="請輸入想尋找的男聲優"></p>
+        <table class="order-table" align="center">
+            <thead>
+                <tr id="b">
+                    <th>姓名</th>
+                    <th>生日</th>
+					<th>配音動畫角色(請點擊聲優姓名以查看)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr id="b">
+                    <td><a href="#Tomoaki">前野智昭</a></td>
+                    <td>1982/05/26</td>
+					<th><div class="page Tomoaki-page">
+					    <p>歌之王子殿下 真愛2000%（卡繆）</p>
+                        <p>刀劍亂舞－花丸－（山姥切國廣）</p>
+					    <p>工作細胞（白血球）</p>
+					    <p>黑執事 Book of Circus（查爾斯·菲普斯）</p>
+					    <p>晨曦公主（蘇·哈克）</p>
+					    <p>SUPER LOVERS（海棠晴）</p>
+						<p>世界一初戀（雪名皇）</p>
+                        <p>獨占我的英雄（大柴康介）</p>
+					    <p>偶像夢幻祭（冰鷹北斗）</p>
+					    <p>Yuri on ICE（米凱萊·克里斯皮諾）</p>
+                        <p>關於我轉生變成史萊姆這檔事（維爾德拉·坦派斯特）</p>
+
+					</div></th>
+                </tr>
+				<tr id="b">
+                    <td><a href="#Natsuki">花江夏樹</a></td>
+                    <td>1991/06/26</td>
+					<th><div class="page Natsuki-page">
+						<p>鬼滅之刃（竈門炭治郎）</p>
+					    <p>食戟之靈（塔克米・阿爾迪尼）</p>
+						<p>活擊 刀劍亂舞（髭切）</p>
+						<p>黑色五葉草（利爾・玻瓦莫提耶）</p>
+						<p>偶像夢幻祭（巴日和）</p>
+						<p>齊木楠雄的災難（鳥束零太）</p>
+						<p>東京喰種（金木研）</p>
+
+					</div></th>
+                </tr>
+				<tr id="b">
+                    <td><a href="#Shouta">蒼井翔太</a></td>
+                    <td>1987/08/11</td>
+					<th><div class="page Shouta-page">
+                        <p>歌之王子殿下 真愛2000%（美風藍）</p>
+						<p>月歌（水無月涙）</p>
+						<p>一弦定音（神崎澪）</p>
+						<p>劇場版 王室教師海涅（里希特·馮·古蘭茲來赫）</p>
+						<p>在茜色的世界與君詠唱（森蘭丸）</p>
+					</div></th>
+                </tr>
+				<tr id="b">
+                    <td><a href="#Yoshitsugu">松岡禎丞</a></td>
+                    <td>1986/09/17</td>
+					<th><div class="page Yoshitsugu-page">
+						<p>NO GAME NO LIFE 遊戲人生（空）</p>
+						<p>食戟之靈（幸平創真）</p>
+						<p>SUPER LOVERS（海棠亞樹）</p>
+						<p>獨占我的英雄（大柴健介）</p>
+						<p>鬼滅之刃（嘴平伊之助）</p>
+                        <p>刀劍神域（桐谷和人）</p>
+						<p>盾之勇者成名錄（天木鍊）</p>
+						<p>我太受歡迎了，該怎麼辦？（四之宮隼人）</p>
+					</div></th></p>
+                </tr>
+                <tr id="b">
+                    <td><a href="#Mamoru">宮野真守</a></td>
+                    <td>1983/06/08</td>
+					<th><div class="page Mamoru-page">
+						<p>歌之王子殿下 MAJI LOVE2000%（一之瀨時也）</p>					
+						<p>Free!（松岡凜）</p>
+						<p>吸血鬼騎士（錐生零、錐生壹縷）</p>
+						<p>七大罪（吉爾桑達）</p>
+						<p>黑執事 Book of Circus（JOKER）</p>						
+					    <p>櫻蘭高校男公關部（須王環）</p>
+						<p>無法掙脫的背叛（碓冰愁生）</p>
+						<p>一拳超人（甜心假面）</p>
+						<p>HUNTER×HUNTER（第2作）（庫洛洛·魯西魯）</p>
+						<p>黑色嘉年華（與儀）</p>
+						<p>死亡筆記本（夜神月）</p>
+						<p>花牌情緣（真島太一）</p>
+						<p>文豪Stray Dogs（太宰治）</p>
+					</div></th>
+                </tr>
+                <tr id="b">
+                    <td><a href="#Daisuke">小野大輔</a></td>
+                    <td>1978/05/04</td>
+					<th><div class="page Daisuke-page">
+						<p>黑執事（賽巴斯欽‧米卡艾利斯）</p>
+						<p>K（夜刀神狗郎）</p>					
+						<p>影子籃球員（綠間真太郎）</p>				
+						<p>潘朵拉之心（傑克·貝薩流士）</p>
+						<p>工作細胞（殺手T細胞）</p>
+						<p>黑色五葉草（威廉·凡強斯）</p>
+						<p>王室教師海涅（艾因斯·馮·古蘭茲來赫）</p>
+						<p>入間同學入魔了！（納貝流士・卡魯耶格）</p>
+						<p>NORN9 命運九重奏（吾妻夏彥）</p>						
+					    <p>最遊記RELOAD GUNLOCK（和尚）</p>
+					</div></th>
+                </tr>
+				<tr id="b">
+                    <td><a href="#Kisho">谷山紀章</a></td>
+                    <td>1975/08/11</td>
+					<th><div class="page Kisho-page">
+						<p>歌之王子殿下 真愛1000％（四之宮那月）</p>					
+						<p>影子籃球員 第二季（冰室辰也）</p>
+						<p>純情羅曼史（高橋孝浩）</p>
+						<p>文豪野犬（中原中也）</p>						
+					    <p>金色琴弦（月森蓮）</p>
+					</div></th>
+                </tr>
+				<tr id="b">
+                    <td><a href="#Hiroshi">神谷浩史</a></td>
+                    <td>1975/01/28</td>
+					<th><div class="page Hiroshi-page">
+					    <p>夏目友人帳 (夏目貴志)</p>
+						<p>影子籃球員 (赤司征十郎)</p>
+						<p>七大罪 (海爾布萊姆)</p>
+						<p>黑色嘉年華 (花礫)</p>
+						<p>流浪神差 (夜斗)</p>
+						<p>文豪野犬 (江戶川亂步)</p>
+						<p>齊木楠雄的災難 (齊木楠雄)</p>
+						<p>進擊的巨人 (里維·阿卡曼)</p>
+						<p>無頭騎士異聞錄 (折原臨也)</p>
+				    </div></th>
+                </tr>
+				<tr id="b">
+                    <td><a href="#Takahiro">櫻井孝宏</a></td>
+                    <td>1974/06/13</td>
+					<th><div class="page Takahiro-page">
+						<p>鬼滅之刃 (富岡義勇）</p>
+						<p>黑執事2（克勞德·弗史塔斯）</p>
+						<p>K (草薙出雲）</p>
+						<p>食戟之靈（一色慧）</p>
+						<p>黑色五葉草（里希特）</p>
+						<p>一拳超人（殭屍男）</p>					
+					    <p>純情羅曼史 (高橋美咲)</p>
+						<p>工作細胞 (輔助性T細胞）</p>
+						<p>驅魔少年（神田優）</p>
+					</div></th>
+                </tr>
+                <tr id="b">
+                    <td><a href="#Sho">速水獎</a></td>
+                    <td>1958/08/02</td>
+					<th><div class="page Sho-page">
+						<p>催眠麥克風-Alternative Rap Battle-（神宮寺寂雷）</p>
+						<p>K（三輪一言）</p>
+						<p>食戟之靈 餐之皿（薙切薊）</p>
+						<p>BLEACH死神（藍染惣右介）</p>
+					    <p>烘焙王（巨匠霧崎）</p>
+						<p>暗殺教室（淺野學峯）</p>
+					</div></th>
+                </tr>
+            </tbody>
+        </table>
+	</body>
+</html>
