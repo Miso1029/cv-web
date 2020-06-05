@@ -1,0 +1,25 @@
+html{
+    font-family:"Times New Roman","標楷體";
+    color:pink;
+	text-shadow:0.1em 0.1em 0.2em red;
+}
+
+body{
+	background-position:center;
+	font-size:30px;
+}
+
+#a{
+	font-size:30px;
+	text-align:center;
+}
+
+#b{
+	font-style:DFKai-sb;
+    font-size:30px;
+	color:red;
+	text-shadow:0.1em 0.1em 0.2em yellow;
+	height:150px;
+	width:300px;
+	text-align:center;
+}

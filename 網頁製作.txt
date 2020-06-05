@@ -1,0 +1,20 @@
+檔案上傳
+git remote add origin https://github.com/
+git pull origin master
+git add .
+git status
+git commit -m "initial commit"
+git push origin master
+
+全部變成 @babel/
+
+執行npm install
+全部套件抓下來
+
+執行npm upgrade
+更新版本
+
+之後動作為:
+git pull origin
+npm intsall
+npm run build
