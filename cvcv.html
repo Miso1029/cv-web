@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="zh-TW">
-    <head>
-	    <meta name="author" content="Miso">
+<html lang="zh-TW">  
+    <head>  
+        <meta name="author" content="Miso">
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>聲優介紹</title>
@@ -13,11 +13,11 @@
 		<link rel="stylesheet" href="./all.css">
 		<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 		<script src="./main.js"></script>
-		<script src="./inquiry.js"></script>
+		<script src="./cvcv.js"></script>
     </head>
-	<body background="./picture/3.jpg">
-	    <p id="a">搜尋：<input type="search" class="light-table-filter" data-table="order-table" placeholder="請輸入想尋找的男聲優"></p>
-        <table class="order-table" align="center" style="border:3px #FFD382 dashed;" cellpadding="10" border='2'>
+    <body background="./picture/3.jpg">  
+        <p id="a">搜尋:<input name="key" type="text" id="key" onkeydown="onSearch(this)" value="" /></p>  
+        <table id="store" align="center" style="border:3px #FFD382 dashed;" cellpadding="10" border='2'>  
             <thead>
                 <tr id="b">
                     <th>姓名</th>
@@ -25,7 +25,7 @@
 					<th>配音動畫角色(請點擊聲優姓名以查看)</th>
                 </tr>
             </thead>
-            <tbody>
+			<tbody>
                 <tr id="b">
                     <td><a href="#Tomoaki">前野智昭</a></td>
                     <td>1982/05/26</td>
@@ -169,7 +169,7 @@
 						<p>暗殺教室（淺野學峯）</p>
 					</div></th>
                 </tr>
-            </tbody>
-        </table>
-	</body>
-</html>
+            </tbody>        
+        </table>    
+    </body>  
+</html>  
