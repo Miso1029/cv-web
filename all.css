@@ -23,3 +23,8 @@ body{
 	width:300px;
 	text-align:center;
 }
+
+#c{
+	color:black;
+	text-shadow:0.1em 0.1em 0.2em yellow;
+}
