@@ -7,11 +7,13 @@ html{
 body{
 	background-position:center;
 	font-size:30px;
+	font-weight:bold;
 }
 
 #a{
 	font-size:30px;
 	text-align:center;
+	font-weight:bold;
 }
 
 #b{
@@ -22,9 +24,11 @@ body{
 	height:150px;
 	width:300px;
 	text-align:center;
+	font-weight:bold;
 }
 
 #c{
 	color:black;
 	text-shadow:0.1em 0.1em 0.2em yellow;
+	font-weight:bold;
 }
